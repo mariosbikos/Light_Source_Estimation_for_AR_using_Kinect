@@ -1,0 +1,3 @@
+C:/Users/Marios/Desktop/ProjectWith17 - Copy (2)/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Marios/Desktop/ProjectWith17 - Copy (2)/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Marios/Desktop/ProjectWith17 - Copy (2)/build/CMakeFiles/openni_grabber.dir

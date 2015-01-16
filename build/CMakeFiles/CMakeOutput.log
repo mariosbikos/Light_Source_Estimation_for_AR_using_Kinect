@@ -1,0 +1,287 @@
+The system is: Windows - 6.1 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine Version 4.0.30319.1
+[Microsoft .NET Framework, Version 4.0.30319.1]
+Copyright (C) Microsoft Corporation 2007. All rights reserved.
+
+Build started 23/7/2014 2:43:02 ££.
+Project "C:\Users\Marios\Desktop\ProjectWith17 - Copy (2)\build\CMakeFiles\3.0.0\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\CompilerIdC.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\Marios\Desktop\ProjectWith17 - Copy (2)\build\CMakeFiles\3.0.0\CompilerIdC\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\Marios\Desktop\ProjectWith17 - Copy (2)\build\CMakeFiles\3.0.0\CompilerIdC\.\CompilerIdC.exe
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:".\CompilerIdC.exe;#1" /manifest Debug\CompilerIdC.exe.intermediate.manifest
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.lastbuildstate".
+Done Building Project "C:\Users\Marios\Desktop\ProjectWith17 - Copy (2)\build\CMakeFiles\3.0.0\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:04.10
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/Marios/Desktop/ProjectWith17 - Copy (2)/build/CMakeFiles/3.0.0/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine Version 4.0.30319.1
+[Microsoft .NET Framework, Version 4.0.30319.1]
+Copyright (C) Microsoft Corporation 2007. All rights reserved.
+
+Build started 23/7/2014 2:43:07 ££.
+Project "C:\Users\Marios\Desktop\ProjectWith17 - Copy (2)\build\CMakeFiles\3.0.0\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\CompilerIdCXX.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\Marios\Desktop\ProjectWith17 - Copy (2)\build\CMakeFiles\3.0.0\CompilerIdCXX\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\Marios\Desktop\ProjectWith17 - Copy (2)\build\CMakeFiles\3.0.0\CompilerIdCXX\.\CompilerIdCXX.exe
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:".\CompilerIdCXX.exe;#1" /manifest Debug\CompilerIdCXX.exe.intermediate.manifest
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.lastbuildstate".
+Done Building Project "C:\Users\Marios\Desktop\ProjectWith17 - Copy (2)\build\CMakeFiles\3.0.0\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.46
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/Marios/Desktop/ProjectWith17 - Copy (2)/build/CMakeFiles/3.0.0/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/Marios/Desktop/ProjectWith17 - Copy (2)/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTryCompileExec4172128188.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine Version 4.0.30319.1
+[Microsoft .NET Framework, Version 4.0.30319.1]
+Copyright (C) Microsoft Corporation 2007. All rights reserved.
+
+Build started 23/7/2014 2:43:09 ££.
+Project "C:\Users\Marios\Desktop\ProjectWith17 - Copy (2)\build\CMakeFiles\CMakeTmp\cmTryCompileExec4172128188.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec4172128188.dir\Debug\".
+  Creating directory "C:\Users\Marios\Desktop\ProjectWith17 - Copy (2)\build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec4172128188.dir\Debug\cmTryCompileExec4172128188.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4172128188.dir\Debug\\" /Fd"cmTryCompileExec4172128188.dir\Debug\vc100.pdb" /Gd /TC /errorReport:queue testCCompiler.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 16.00.30319.01 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4172128188.dir\Debug\\" /Fd"cmTryCompileExec4172128188.dir\Debug\vc100.pdb" /Gd /TC /errorReport:queue testCCompiler.c
+  
+  testCCompiler.c
+ManifestResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec4172128188.dir\Debug\cmTryCompileExec4172128188.exe.embed.manifest.res" cmTryCompileExec4172128188.dir\Debug\cmTryCompileExec4172128188_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Marios\Desktop\ProjectWith17 - Copy (2)\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4172128188.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTryCompileExec4172128188.dir\Debug\cmTryCompileExec4172128188.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/Users/Marios/Desktop/ProjectWith17 - Copy (2)/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4172128188.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Marios/Desktop/ProjectWith17 - Copy (2)/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4172128188.lib" /MACHINE:X64 cmTryCompileExec4172128188.dir\Debug\cmTryCompileExec4172128188.exe.embed.manifest.res
+  cmTryCompileExec4172128188.dir\Debug\testCCompiler.obj  /machine:x64 /debug 
+  cmTryCompileExec4172128188.vcxproj -> C:\Users\Marios\Desktop\ProjectWith17 - Copy (2)\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4172128188.exe
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"cmTryCompileExec4172128188.dir\Debug\cmTryCompileExec4172128188.exe.embed.manifest" /manifest cmTryCompileExec4172128188.dir\Debug\cmTryCompileExec4172128188.exe.intermediate.manifest
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec4172128188.dir\Debug\cmTryCompileExec4172128188.exe.embed.manifest.res" cmTryCompileExec4172128188.dir\Debug\cmTryCompileExec4172128188_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Marios\Desktop\ProjectWith17 - Copy (2)\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4172128188.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTryCompileExec4172128188.dir\Debug\cmTryCompileExec4172128188.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/Users/Marios/Desktop/ProjectWith17 - Copy (2)/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4172128188.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Marios/Desktop/ProjectWith17 - Copy (2)/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4172128188.lib" /MACHINE:X64 cmTryCompileExec4172128188.dir\Debug\cmTryCompileExec4172128188.exe.embed.manifest.res
+  cmTryCompileExec4172128188.dir\Debug\testCCompiler.obj  /machine:x64 /debug 
+  cmTryCompileExec4172128188.vcxproj -> C:\Users\Marios\Desktop\ProjectWith17 - Copy (2)\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4172128188.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec4172128188.dir\Debug\cmTryCompileExec4172128188.unsuccessfulbuild".
+  Touching "cmTryCompileExec4172128188.dir\Debug\cmTryCompileExec4172128188.lastbuildstate".
+Done Building Project "C:\Users\Marios\Desktop\ProjectWith17 - Copy (2)\build\CMakeFiles\CMakeTmp\cmTryCompileExec4172128188.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:04.29
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Marios/Desktop/ProjectWith17 - Copy (2)/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTryCompileExec1415660689.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine Version 4.0.30319.1
+[Microsoft .NET Framework, Version 4.0.30319.1]
+Copyright (C) Microsoft Corporation 2007. All rights reserved.
+
+Build started 23/7/2014 2:43:13 ££.
+Project "C:\Users\Marios\Desktop\ProjectWith17 - Copy (2)\build\CMakeFiles\CMakeTmp\cmTryCompileExec1415660689.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1415660689.dir\Debug\".
+  Creating directory "C:\Users\Marios\Desktop\ProjectWith17 - Copy (2)\build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1415660689.dir\Debug\cmTryCompileExec1415660689.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1415660689.dir\Debug\\" /Fd"cmTryCompileExec1415660689.dir\Debug\vc100.pdb" /Gd /TC /errorReport:queue "..\..\..\..\..\..\..\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 16.00.30319.01 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1415660689.dir\Debug\\" /Fd"cmTryCompileExec1415660689.dir\Debug\vc100.pdb" /Gd /TC /errorReport:queue "..\..\..\..\..\..\..\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+ManifestResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec1415660689.dir\Debug\cmTryCompileExec1415660689.exe.embed.manifest.res" cmTryCompileExec1415660689.dir\Debug\cmTryCompileExec1415660689_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Marios\Desktop\ProjectWith17 - Copy (2)\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1415660689.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"cmTryCompileExec1415660689.dir\Debug\cmTryCompileExec1415660689.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/Users/Marios/Desktop/ProjectWith17 - Copy (2)/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1415660689.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Marios/Desktop/ProjectWith17 - Copy (2)/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1415660689.lib" /MACHINE:X64 cmTryCompileExec1415660689.dir\Debug\cmTryCompileExec1415660689.exe.embed.manifest.res
+  cmTryCompileExec1415660689.dir\Debug\CMakeCCompilerABI.obj  /machine:x64 /debug 
+  cmTryCompileExec1415660689.vcxproj -> C:\Users\Marios\Desktop\ProjectWith17 - Copy (2)\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1415660689.exe
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"cmTryCompileExec1415660689.dir\Debug\cmTryCompileExec1415660689.exe.embed.manifest" /manifest cmTryCompileExec1415660689.dir\Debug\cmTryCompileExec1415660689.exe.intermediate.manifest
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec1415660689.dir\Debug\cmTryCompileExec1415660689.exe.embed.manifest.res" cmTryCompileExec1415660689.dir\Debug\cmTryCompileExec1415660689_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Marios\Desktop\ProjectWith17 - Copy (2)\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1415660689.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"cmTryCompileExec1415660689.dir\Debug\cmTryCompileExec1415660689.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/Users/Marios/Desktop/ProjectWith17 - Copy (2)/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1415660689.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Marios/Desktop/ProjectWith17 - Copy (2)/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1415660689.lib" /MACHINE:X64 cmTryCompileExec1415660689.dir\Debug\cmTryCompileExec1415660689.exe.embed.manifest.res
+  cmTryCompileExec1415660689.dir\Debug\CMakeCCompilerABI.obj  /machine:x64 /debug 
+  cmTryCompileExec1415660689.vcxproj -> C:\Users\Marios\Desktop\ProjectWith17 - Copy (2)\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1415660689.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec1415660689.dir\Debug\cmTryCompileExec1415660689.unsuccessfulbuild".
+  Touching "cmTryCompileExec1415660689.dir\Debug\cmTryCompileExec1415660689.lastbuildstate".
+Done Building Project "C:\Users\Marios\Desktop\ProjectWith17 - Copy (2)\build\CMakeFiles\CMakeTmp\cmTryCompileExec1415660689.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.68
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/Marios/Desktop/ProjectWith17 - Copy (2)/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTryCompileExec2900298770.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine Version 4.0.30319.1
+[Microsoft .NET Framework, Version 4.0.30319.1]
+Copyright (C) Microsoft Corporation 2007. All rights reserved.
+
+Build started 23/7/2014 2:43:15 ££.
+Project "C:\Users\Marios\Desktop\ProjectWith17 - Copy (2)\build\CMakeFiles\CMakeTmp\cmTryCompileExec2900298770.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec2900298770.dir\Debug\".
+  Creating directory "C:\Users\Marios\Desktop\ProjectWith17 - Copy (2)\build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2900298770.dir\Debug\cmTryCompileExec2900298770.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2900298770.dir\Debug\\" /Fd"cmTryCompileExec2900298770.dir\Debug\vc100.pdb" /Gd /TP /errorReport:queue testCXXCompiler.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 16.00.30319.01 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2900298770.dir\Debug\\" /Fd"cmTryCompileExec2900298770.dir\Debug\vc100.pdb" /Gd /TP /errorReport:queue testCXXCompiler.cxx
+  
+  testCXXCompiler.cxx
+ManifestResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec2900298770.dir\Debug\cmTryCompileExec2900298770.exe.embed.manifest.res" cmTryCompileExec2900298770.dir\Debug\cmTryCompileExec2900298770_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Marios\Desktop\ProjectWith17 - Copy (2)\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2900298770.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTryCompileExec2900298770.dir\Debug\cmTryCompileExec2900298770.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/Users/Marios/Desktop/ProjectWith17 - Copy (2)/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2900298770.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Marios/Desktop/ProjectWith17 - Copy (2)/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2900298770.lib" /MACHINE:X64 cmTryCompileExec2900298770.dir\Debug\cmTryCompileExec2900298770.exe.embed.manifest.res
+  cmTryCompileExec2900298770.dir\Debug\testCXXCompiler.obj  /machine:x64 /debug 
+  cmTryCompileExec2900298770.vcxproj -> C:\Users\Marios\Desktop\ProjectWith17 - Copy (2)\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2900298770.exe
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"cmTryCompileExec2900298770.dir\Debug\cmTryCompileExec2900298770.exe.embed.manifest" /manifest cmTryCompileExec2900298770.dir\Debug\cmTryCompileExec2900298770.exe.intermediate.manifest
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec2900298770.dir\Debug\cmTryCompileExec2900298770.exe.embed.manifest.res" cmTryCompileExec2900298770.dir\Debug\cmTryCompileExec2900298770_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Marios\Desktop\ProjectWith17 - Copy (2)\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2900298770.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTryCompileExec2900298770.dir\Debug\cmTryCompileExec2900298770.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/Users/Marios/Desktop/ProjectWith17 - Copy (2)/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2900298770.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Marios/Desktop/ProjectWith17 - Copy (2)/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2900298770.lib" /MACHINE:X64 cmTryCompileExec2900298770.dir\Debug\cmTryCompileExec2900298770.exe.embed.manifest.res
+  cmTryCompileExec2900298770.dir\Debug\testCXXCompiler.obj  /machine:x64 /debug 
+  cmTryCompileExec2900298770.vcxproj -> C:\Users\Marios\Desktop\ProjectWith17 - Copy (2)\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2900298770.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec2900298770.dir\Debug\cmTryCompileExec2900298770.unsuccessfulbuild".
+  Touching "cmTryCompileExec2900298770.dir\Debug\cmTryCompileExec2900298770.lastbuildstate".
+Done Building Project "C:\Users\Marios\Desktop\ProjectWith17 - Copy (2)\build\CMakeFiles\CMakeTmp\cmTryCompileExec2900298770.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.52
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Marios/Desktop/ProjectWith17 - Copy (2)/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTryCompileExec2924523475.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine Version 4.0.30319.1
+[Microsoft .NET Framework, Version 4.0.30319.1]
+Copyright (C) Microsoft Corporation 2007. All rights reserved.
+
+Build started 23/7/2014 2:43:17 ££.
+Project "C:\Users\Marios\Desktop\ProjectWith17 - Copy (2)\build\CMakeFiles\CMakeTmp\cmTryCompileExec2924523475.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec2924523475.dir\Debug\".
+  Creating directory "C:\Users\Marios\Desktop\ProjectWith17 - Copy (2)\build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2924523475.dir\Debug\cmTryCompileExec2924523475.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2924523475.dir\Debug\\" /Fd"cmTryCompileExec2924523475.dir\Debug\vc100.pdb" /Gd /TP /errorReport:queue "..\..\..\..\..\..\..\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 16.00.30319.01 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2924523475.dir\Debug\\" /Fd"cmTryCompileExec2924523475.dir\Debug\vc100.pdb" /Gd /TP /errorReport:queue "..\..\..\..\..\..\..\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+ManifestResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec2924523475.dir\Debug\cmTryCompileExec2924523475.exe.embed.manifest.res" cmTryCompileExec2924523475.dir\Debug\cmTryCompileExec2924523475_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Marios\Desktop\ProjectWith17 - Copy (2)\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2924523475.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"cmTryCompileExec2924523475.dir\Debug\cmTryCompileExec2924523475.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/Users/Marios/Desktop/ProjectWith17 - Copy (2)/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2924523475.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Marios/Desktop/ProjectWith17 - Copy (2)/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2924523475.lib" /MACHINE:X64 cmTryCompileExec2924523475.dir\Debug\cmTryCompileExec2924523475.exe.embed.manifest.res
+  cmTryCompileExec2924523475.dir\Debug\CMakeCXXCompilerABI.obj  /machine:x64 /debug 
+  cmTryCompileExec2924523475.vcxproj -> C:\Users\Marios\Desktop\ProjectWith17 - Copy (2)\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2924523475.exe
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"cmTryCompileExec2924523475.dir\Debug\cmTryCompileExec2924523475.exe.embed.manifest" /manifest cmTryCompileExec2924523475.dir\Debug\cmTryCompileExec2924523475.exe.intermediate.manifest
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec2924523475.dir\Debug\cmTryCompileExec2924523475.exe.embed.manifest.res" cmTryCompileExec2924523475.dir\Debug\cmTryCompileExec2924523475_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Marios\Desktop\ProjectWith17 - Copy (2)\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2924523475.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"cmTryCompileExec2924523475.dir\Debug\cmTryCompileExec2924523475.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/Users/Marios/Desktop/ProjectWith17 - Copy (2)/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2924523475.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Marios/Desktop/ProjectWith17 - Copy (2)/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2924523475.lib" /MACHINE:X64 cmTryCompileExec2924523475.dir\Debug\cmTryCompileExec2924523475.exe.embed.manifest.res
+  cmTryCompileExec2924523475.dir\Debug\CMakeCXXCompilerABI.obj  /machine:x64 /debug 
+  cmTryCompileExec2924523475.vcxproj -> C:\Users\Marios\Desktop\ProjectWith17 - Copy (2)\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2924523475.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec2924523475.dir\Debug\cmTryCompileExec2924523475.unsuccessfulbuild".
+  Touching "cmTryCompileExec2924523475.dir\Debug\cmTryCompileExec2924523475.lastbuildstate".
+Done Building Project "C:\Users\Marios\Desktop\ProjectWith17 - Copy (2)\build\CMakeFiles\CMakeTmp\cmTryCompileExec2924523475.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.73
+
+
